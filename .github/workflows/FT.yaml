@@ -8,7 +8,7 @@ jobs:
         name: HCL OneTest UI
         steps:
          - name: Execute Test
-           uses: HCL-TECH-SOFTWARE/FunctionalTestAction@main
+           uses: anuraag-k/FunctionalTestAction@main
            with:
             projectDirectory: C:\Users\anuraag.k\HCL\hclonetest\workspace\FT1
             scriptName: Script1
