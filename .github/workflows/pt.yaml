@@ -1,0 +1,37 @@
+name: HCL OneTest Performance
+
+on: workflow_dispatch
+
+jobs:
+    Performance-Action:
+        runs-on: self-hosted
+        name: HCL OneTest Performance
+        steps:
+         - name: HCL OneTest Performance
+           uses: anuraag-k/PerformanceTestAction@main
+           with:
+            workspace: C:\Users\anuraag.k\HCL\hclonetest\workspace
+            project: PT1
+            suite: Test1
+            imShared: 
+            configFile: 
+            duration:
+            exportLog: 
+            exportStatReportList: 
+            exportStats: 
+            exportStatsFormat: 
+            exportStatsHtml: 
+            labels:
+            overrideRmLabels:
+            overwrite: 
+            publish: 
+            publishFor: 
+            publishReports: 
+            rate:
+            reportHistory:
+            results: 
+            swapDatasets:
+            userComments:             
+            users:
+            varFile:
+            vmArgs:
