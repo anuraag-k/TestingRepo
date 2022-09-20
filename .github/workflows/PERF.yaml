@@ -11,5 +11,5 @@ jobs:
            uses: HCL-TECH-SOFTWARE/onetest-perf-action@main
            with:
             workspace: C:\Users\anuraag.k\HCL\hclonetest\workspace_pt
-            project: PT1
+            project: PT2
             suite: Test1
