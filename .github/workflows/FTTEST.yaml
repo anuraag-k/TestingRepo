@@ -11,4 +11,4 @@ jobs:
            uses: HCL-TECH-SOFTWARE/onetest-ui-action@main
            with:
             projectDirectory:  C:\Users\anuraag.k\HCL\hclonetest\workspace\FT1
-            scriptName: <MyScript>
+            scriptName: Script1
