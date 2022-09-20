@@ -1,0 +1,16 @@
+name: HCL OneTest API
+
+on: workflow_dispatch
+
+jobs:
+    API-Action:
+        name: HCL OneTest API
+        runs-on: self-hosted
+        steps:
+         - name: HCL OneTest API
+           uses: HCL-TECH-SOFTWARE/onetest-api-action@v1
+           with:
+            projectDir: C:\Users\anuraag.k\Test
+            projectName: Test
+            environment: BLMYCLDDW139491
+            tests: Test1
