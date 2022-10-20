@@ -12,4 +12,4 @@ jobs:
            with:
             workspace: C:\PTWsps\wsp1051
             project: 1051Demo
-            suite: PBW
+            suite: Tests/PBW
