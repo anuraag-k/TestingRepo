@@ -8,7 +8,7 @@ jobs:
         name: HCL OneTest UI
         steps:
          - name: Execute Test
-           uses: HCL-TECH-SOFTWARE/onetest-ui-action@main
+           uses: IBM/IBM-RFT-GitHub-Action@Bootstrap
            with:
             projectDirectory:  C:\Users\anuraag.k\HCL\hclonetest\workspace\FT1
             scriptName: Script1
